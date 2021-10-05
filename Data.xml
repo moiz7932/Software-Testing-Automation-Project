@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+    <Execution>
+        <Login>
+           <path1>login2</path1>
+            <url>https://www.demoblaze.com/index.html</url>
+			<username>hamza098</username>
+            <password>hamza786</password>
+            <locator>//*[@id='logInModal']/div/div/div[3]/button[2]</locator>
+			
+        </Login>
+		
+		 <SignUpEmpty>
+            <url>https://www.demoblaze.com/index.html</url>
+            <username>Moiz</username>
+            <password></password>
+            <locator>//*[@id='signInModal']/div/div/div[3]/button[2]</locator>
+			
+			<msg>Please fill out Username and Password.</msg>
+		
+        </SignUpEmpty>
+		
+		<LoginClose>
+            <url>https://www.demoblaze.com/index.html</url>
+			<locator>//*[@id='logInModal']/div/div/div[3]/button[1]</locator>
+          
+        </LoginClose>
+		
+		
+		
+		
+	
+		
+		<LoginNeg>
+            <url>https://www.demoblaze.com/index.html</url>
+            <username>hamza098</username>
+            <password>hamza78</password>
+            <locator>//*[@id='logInModal']/div/div/div[3]/button[2]</locator>
+			
+			<msg>Wrong password.</msg>
+		
+        </LoginNeg>	
+		
+		
+		
+		<SignupUser>
+            <url>https://www.demoblaze.com/index.html</url>
+            <username>hamza1</username>
+            <password>hamza1</password>
+            <locator>//*[@id='signInModal']/div/div/div[3]/button[2]</locator>
+			
+			<msg>Sign up successful.</msg>
+		
+        </SignupUser>
+		
+		<SignupUser>
+            <url>https://www.demoblaze.com/index.html</url>
+            <username>hamza1</username>
+            <password>hamza1</password>
+            <locator>//*[@id='signInModal']/div/div/div[3]/button[2]</locator>
+			
+			<msg>This user already exist.</msg>
+		
+        </SignupUser>
+		
+			<SignupClose>
+            <url>https://www.demoblaze.com/index.html</url>
+          
+            <locator>//*[@id='signInModal']/div/div/div[3]/button[1]</locator>
+			
+			
+        </SignupClose>	
+		
+		<contactForm>
+			<url>https://www.demoblaze.com/index.html</url>
+            <locator>//*[@id='navbarExample']/ul/li[2]/a</locator>
+            <email>hamza098@gmail.com</email>
+			<name> hamza</name>
+            <enterText>I need help</enterText>
+			
+			<buttonLocator>//*[@id='exampleModal']/div/div/div[3]/button[2]</buttonLocator>
+		
+		</contactForm>
+		
+		<contactFormClose>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<locator>//*[@id='navbarExample']/ul/li[2]/a</locator>
+		
+		</contactFormClose>
+		
+			<aboutus>
+				<url>https://www.demoblaze.com/index.html</url>
+				
+				<locator1>//*[@id='navbarExample']/ul/li[3]/a</locator1>
+				
+				<locator2>vjs-big-play-button</locator2>
+			
+			</aboutus>
+			
+		<aboutusClose>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<locator1>//*[@id='navbarExample']/ul/li[3]/a</locator1>
+			
+			<locator2>//*[@id='videoModal']/div/div/div[3]/button</locator2>
+		
+		</aboutusClose>
+		
+		<homeReturn>
+			<url>https://www.demoblaze.com/cart.html</url>
+            
+			<locator>//*[@id='navbarExample']/ul/li[1]/a</locator>
+			
+			
+		
+		</homeReturn>
+		
+		
+		<sliderPrevButton>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<locator>carousel-control-prev-icon</locator>
+			
+			
+		
+		</sliderPrevButton>
+		
+			
+		<sliderForButton>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<locator>carousel-control-next</locator>
+			
+			
+		
+		</sliderForButton>
+		
+			
+		<Signup>
+            <url>http://adactinhotelapp.com/</url>
+            <username>Moiz Ahmed</username>
+            <password>moiz123</password>
+        </Signup>
+		
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id='tbodyid']/div[1]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[2]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		
+	
+	
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[3]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[4]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[5]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		
+        
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[6]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[7]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[8]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		<addToCartAllProducts>
+			<url>https://www.demoblaze.com/index.html</url>
+            
+			<cat>cat</cat>
+			<locator1>//*[@id="tbodyid"]/div[9]/div/div/h4/a</locator1>
+			<locator2>//*[@id='tbodyid']/div[2]/div/a</locator2>
+			<msg>Product added</msg>
+	
+		</addToCartAllProducts>
+		
+			
+	
+    </Execution>
+</Automation>
